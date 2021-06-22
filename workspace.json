@@ -102,6 +102,29 @@
           }
         }
       }
+    },
+    "unlimited-school-ui-components": {
+      "root": "libs/unlimited-school/ui-components",
+      "sourceRoot": "libs/unlimited-school/ui-components/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/unlimited-school/ui-components/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/unlimited-school/ui-components"],
+          "options": {
+            "jestConfig": "libs/unlimited-school/ui-components/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

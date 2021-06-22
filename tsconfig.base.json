@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-practice/unlimited-school/ui-components": [
+        "libs/unlimited-school/ui-components/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
