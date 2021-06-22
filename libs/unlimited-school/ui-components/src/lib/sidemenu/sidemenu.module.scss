@@ -1,5 +1,5 @@
 .sidemenu {
-  display: fixed;
+  display: inline-block;
   top: 0;
   left: 0;
   min-width: 20vw;
@@ -18,7 +18,7 @@
 }
 
 .link {
-  padding: 16px;
+  padding: 24px 16px;
   cursor: pointer;
   transition: all ease;
   color: #dfdfdf;
